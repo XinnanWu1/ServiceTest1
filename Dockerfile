@@ -1,4 +1,4 @@
-FROM openjdk:17-slim
+FROM anapsix/alpine-java:17_jdk
 WORKDIR /app
 COPY target/ServiceTest1-0.0.1-SNAPSHOT.jar serviceTest1.jar
 
